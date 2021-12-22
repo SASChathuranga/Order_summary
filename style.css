@@ -6,6 +6,48 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container {}
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: cover;
+    height: 100vh;
+}
 
-img {}
+.container {
+    width: 350px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.img-container img {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.content p {
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+.price {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
