@@ -14,8 +14,9 @@ body {
 
 .container {
     width: 350px;
-    height: 450px;
+    height: 520px;
     background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(93, 93, 93, 0.19);
     border-radius: 10px;
     position: absolute;
     top: 50%;
@@ -26,7 +27,7 @@ body {
 }
 
 .img-container img {
-    height: 150px;
+    height: 160px;
     width: 100%;
     background-size: cover;
 }
@@ -37,17 +38,91 @@ body {
     padding-top: 20px;
 }
 
+.content h2 {
+    color: rgb(61, 60, 60);
+}
+
 .content p {
     padding: 15px 10px;
     font-size: 14px;
+    opacity: 0.6;
 }
 
 .price {
-    background-color: rgb(240, 240, 240);
-    border-radius: 10px;
-    margin: 0px 30px;
+    background-color: rgba(240, 240, 240, 0.849);
+    border-radius: 15px;
+    margin: 0px 30px 0px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
+}
+
+.music-icon {
+    margin-right: 15px;
+}
+
+.anual {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.price-content {
+    margin-right: 40px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.price-txt {
+    opacity: 0.5;
+}
+
+.price a {
+    color: rgb(3, 3, 197);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-payment {
+    font-weight: 500;
+    background-color: rgb(111, 111, 231);
+    text-align: center;
+    padding: 10px 25px;
+    margin: 15px 30px;
+    border-radius: 10px;
+}
+
+.btn-payment a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-cancel {
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 25px;
+    margin: 0px 30px;
+    border-radius: 10px;
+}
+
+.btn-cancel a {
+    color: rgb(95, 94, 94);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.btn-cancel:hover {
+    background-color: rgb(212, 212, 212);
+    padding: 10px 25px;
+    margin: 0px 30px;
+}
+
+.btn-payment:hover {
+    font-weight: 500;
+    background-color: rgb(75, 75, 211);
+    text-align: center;
+    padding: 10px 25px;
+    margin: 15px 30px;
+    border-radius: 10px;
 }
